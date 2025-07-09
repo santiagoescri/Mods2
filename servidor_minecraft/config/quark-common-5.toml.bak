@@ -1,0 +1,217 @@
+oddities = {}
+experimental = {}
+
+[mobs]
+	Crabs = true
+	Forgotten = true
+	Foxhound = true
+	Shiba = true
+	Stonelings = true
+	Toretoise = true
+	Wraith = true
+
+	[mobs.crabs]
+		"Enable Brewing" = true
+		#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.
+		#Keep this on when brewing is disabled if your pack adds an alternative source for the effect.
+		"Resilience Required For All Effects" = true
+		"Add Crab Leg To Fisherman Trades" = true
+
+		[mobs.crabs.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.crabs.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.crabs.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_beach"]
+					"Is Blacklist" = false
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.crabs.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.forgotten]
+		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
+		"Forgotten Spawn Rate" = 0.05
+		"Max Height For Spawn" = 0
+
+	[mobs.foxhound]
+		#The chance coal will tame a foxhound
+		"Tame Chance" = 0.05
+		"Foxhounds Speed Up Furnaces" = true
+
+		[mobs.foxhound.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 30
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 2
+
+			[mobs.foxhound.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.foxhound.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.foxhound.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
+					"Is Blacklist" = false
+
+		[mobs.foxhound.lesser_spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 2
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.foxhound.lesser_spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.foxhound.lesser_spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+	[mobs.shiba]
+		"Ignore Areas With Skylight" = false
+
+		[mobs.shiba.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 40
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.shiba.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.shiba.spawn_config.biomes.tags]
+					"Biome Tags" = ["minecraft:is_mountain"]
+					"Is Blacklist" = false
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.shiba.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.stonelings]
+		"Max Y Level" = 0
+		"Enable Diamond Heart" = true
+		#When enabled, stonelings are much more aggressive in checking for players
+		"Cautious Stonelings" = false
+		"Tamable Stonelings" = true
+		#Disabled if if Pathfinder Maps are disabled.
+		"Weald Pathfinder Maps" = true
+
+		[mobs.stonelings.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.stonelings.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 80
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 1
+
+			[mobs.stonelings.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.stonelings.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.stonelings.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.toretoise]
+		"Max Y Level" = 0
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["minecraft:glow_berries"]
+		"Allow Toretoise To Regrow" = true
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
+		"Regrow Chance" = 3
+
+		[mobs.toretoise.dimensions]
+			"Is Blacklist" = false
+			Dimensions = ["minecraft:overworld"]
+
+		[mobs.toretoise.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 120
+			#Allowed values: [1,)
+			"Min Group Size" = 2
+			#Allowed values: [1,)
+			"Max Group Size" = 4
+
+			[mobs.toretoise.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.toretoise.spawn_config.biomes.tags]
+					"Biome Tags" = ["forge:is_void", "minecraft:is_nether", "minecraft:is_end"]
+					"Is Blacklist" = true
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.toretoise.spawn_config.biomes.biomes]
+					Biomes = []
+					"Is Blacklist" = true
+
+	[mobs.wraith]
+		#List of sound sets to use with wraiths.
+		#Three sounds must be provided per entry, separated by | (in the format idle|hurt|death). Leave blank for no sound (i.e. if a mob has no ambient noise)
+		"Wraith Sounds" = ["entity.sheep.ambient|entity.sheep.hurt|entity.sheep.death", "entity.cow.ambient|entity.cow.hurt|entity.cow.death", "entity.pig.ambient|entity.pig.hurt|entity.pig.death", "entity.chicken.ambient|entity.chicken.hurt|entity.chicken.death", "entity.horse.ambient|entity.horse.hurt|entity.horse.death", "entity.cat.ambient|entity.cat.hurt|entity.cat.death", "entity.wolf.ambient|entity.wolf.hurt|entity.wolf.death", "entity.villager.ambient|entity.villager.hurt|entity.villager.death", "entity.polar_bear.ambient|entity.polar_bear.hurt|entity.polar_bear.death", "entity.zombie.ambient|entity.zombie.hurt|entity.zombie.death", "entity.skeleton.ambient|entity.skeleton.hurt|entity.skeleton.death", "entity.spider.ambient|entity.spider.hurt|entity.spider.death", "|entity.creeper.hurt|entity.creeper.death", "entity.endermen.ambient|entity.endermen.hurt|entity.endermen.death", "entity.zombie_pig.ambient|entity.zombie_pig.hurt|entity.zombie_pig.death", "entity.witch.ambient|entity.witch.hurt|entity.witch.death", "entity.blaze.ambient|entity.blaze.hurt|entity.blaze.death", "entity.llama.ambient|entity.llama.hurt|entity.llama.death", "|quark:entity.stoneling.cry|quark:entity.stoneling.die", "quark:entity.frog.idle|quark:entity.frog.hurt|quark:entity.frog.die"]
+
+		[mobs.wraith.spawn_config]
+			"Max Cost" = 0.7
+			"Spawn Cost" = 0.15
+			#Allowed values: (0,)
+			"Spawn Weight" = 5
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[mobs.wraith.spawn_config.biomes]
+
+				#Biome tags for which this should spawn in. Must match both this and 'biomes' to spawn.
+				[mobs.wraith.spawn_config.biomes.tags]
+					"Biome Tags" = []
+					"Is Blacklist" = true
+
+				#Biome names this should spawn in. Must match both this and 'types' to spawn.
+				[mobs.wraith.spawn_config.biomes.biomes]
+					Biomes = ["minecraft:soul_sand_valley"]
+					"Is Blacklist" = false
+
+[general]
+	"Enable 'q' Button" = true
+	"'q' Button on the Right" = false
+	"Disable Q Menu Effects" = false
+	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
+	#Allowed values: (0,)
+	"Advancement Visibility Depth" = 2
+	#Blocks that Quark should treat as Shulker Boxes.
+	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraf
