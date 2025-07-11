@@ -5203,3 +5203,47 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 [11Jul2025 15:34:32.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was killed by magic
 [11Jul2025 15:34:32.038] [Server thread/DEBUG] [tombstone/]: A new grave of the player teddiursa was created at position [x:38, y:102, z:-1095, dim:minecraft:overworld]
 [11Jul2025 15:34:32.040] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:35:13.393] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jul2025 15:35:13.402] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jul2025 15:35:43.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Acquire Hardware]
+[11Jul2025 15:36:03.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [A trip to the Countryside]
+[11Jul2025 15:36:47.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Acquire Hardware]
+[11Jul2025 15:37:53.051] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:37:53.052] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:40:08.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Not Today, Thank You]
+[11Jul2025 15:40:13.449] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[11Jul2025 15:40:13.458] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[11Jul2025 15:40:13.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Ambush]
+[11Jul2025 15:40:28.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [It's an Emu!!!]
+[11Jul2025 15:40:33.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [It's an Emu!!!]
+[11Jul2025 15:41:16.674] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[11Jul2025 15:41:27.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has reached the goal [Fortuitous Militia]
+[11Jul2025 15:41:45.206] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[11Jul2025 15:41:45.206] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[11Jul2025 15:41:46.014] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[11Jul2025 15:41:46.014] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[11Jul2025 15:41:46.014] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[11Jul2025 15:41:47.014] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[11Jul2025 15:42:23.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Cover Me with Diamonds]
+[11Jul2025 15:42:23.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Funeral Theft]
+[11Jul2025 15:42:41.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Rhinoceros
+[11Jul2025 15:42:41.438] [Server thread/DEBUG] [tombstone/]: A new grave of the player staputa was created at position [x:536, y:68, z:-1115, dim:minecraft:overworld]
+[11Jul2025 15:42:41.477] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:42:42.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [The Most Useful Key]
+[11Jul2025 15:43:00.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has reached the goal [Chain Death]
+[11Jul2025 15:43:00.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Rhinoceros
+[11Jul2025 15:43:00.506] [Server thread/DEBUG] [tombstone/]: A new grave of the player staputa was created at position [x:535, y:69, z:-1101, dim:minecraft:overworld]
+[11Jul2025 15:43:00.532] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:43:04.158] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
+[11Jul2025 15:43:09.785] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:43:09.785] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:43:09.785] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:43:09.785] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:43:09.785] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:43:56.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [The Parrots and the Bats]
+[11Jul2025 15:44:13.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Your First Receptacle]
+[11Jul2025 15:44:38.431] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[11Jul2025 15:44:51.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Magic Writing]
+[11Jul2025 15:44:55.688] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
+[11Jul2025 15:44:56.765] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[11Jul2025 15:44:56.772] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
