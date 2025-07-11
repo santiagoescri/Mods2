@@ -901,3 +901,53 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 [11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
 [11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
 [11Jul2025 16:05:27.312] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[11Jul2025 16:05:46.054] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3747ms or 74 ticks behind
+[11Jul2025 16:05:59.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [A breath of fresh air]
+[11Jul2025 16:06:36.996] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
+[11Jul2025 16:06:47.457] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[11Jul2025 16:06:51.623] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[11Jul2025 16:06:51.623] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[11Jul2025 16:06:51.623] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[11Jul2025 16:06:51.624] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[11Jul2025 16:06:51.624] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[11Jul2025 16:06:51.629] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[11Jul2025 16:06:51.629] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[11Jul2025 16:06:51.629] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[11Jul2025 16:07:20.726] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[11Jul2025 16:07:36.858] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:07:36.859] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:07:36.859] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:07:36.859] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:07:38.009] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2301ms or 46 ticks behind
+[11Jul2025 16:07:57.868] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[11Jul2025 16:08:15.080] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2222ms or 44 ticks behind
+[11Jul2025 16:08:18.673] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[11Jul2025 16:08:18.673] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[11Jul2025 16:08:18.680] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[11Jul2025 16:08:18.680] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[11Jul2025 16:08:18.680] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[11Jul2025 16:09:14.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [We do a little trolling...]
+[11Jul2025 16:10:14.877] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:10:14.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:10:56.329] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channels [alexscaves:main_channel,valkyrienskies:vs_packet,curios:main,alexsmobs:main_channel,tombstone:tombstone_channel,legendary_monsters:main_channel,mofus_better_end_:mofus_better_end_,laendli_transport:laendli_transport,citadel:main_channel,geckolib:main,waystones:network,corgilib:network] rejected their client side version number
+[11Jul2025 16:10:56.330] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Terminating connection with client, mismatched mod list
+[11Jul2025 16:10:56.343] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@79f1c87f[id=<null>,name=30122006N,properties={},legacy=false] (/127.78.30.147:57257) lost connection: Connection closed - mismatched mod channel list
+[11Jul2025 16:12:52.987] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@565a719c[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:40255) lost connection: Disconnected
+[11Jul2025 16:13:22.885] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:37467] logged in with entity id 52098 at (1427.7713811634962, 66.0, 1165.1836067646575)
+[11Jul2025 16:13:22.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:13:23.492] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:13:23.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:13:23.544] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jul2025 16:13:57.736] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@392d7a74[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:37743) lost connection: Disconnected
+[11Jul2025 16:14:18.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [A breath of fresh air]
+[11Jul2025 16:14:31.429] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66b0682f[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:50021) lost connection: Disconnected
+[11Jul2025 16:14:38.538] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:53251] logged in with entity id 52493 at (1427.7713811634962, 66.0, 1165.1836067646575)
+[11Jul2025 16:14:38.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:14:39.123] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:14:39.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:14:39.173] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jul2025 16:14:40.140] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 30122006N[/127.78.30.147:50539] logged in with entity id 52520 at (-195.3320587342552, 51.0, 0.5601972607360948)
+[11Jul2025 16:14:40.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 30122006N joined the game
+[11Jul2025 16:15:24.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa fell from a high place
+[11Jul2025 16:15:24.346] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-16.15.24.dat
+[11Jul2025 16:15:24.348] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
