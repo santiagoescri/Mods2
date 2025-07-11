@@ -88,6 +88,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2025-07-11 15:52:30 +0000",
       "minecraft:savanna_plateau": "2025-07-11 15:22:31 +0000",
       "minecraft:dark_forest": "2025-07-11 15:09:28 +0000",
       "minecraft:sparse_jungle": "2025-07-11 15:12:13 +0000",
@@ -458,6 +459,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-07-11 15:12:50 +0000",
+      "minecraft:magma_cube": "2025-07-11 15:55:03 +0000",
       "minecraft:creeper": "2025-07-09 22:51:24 +0000",
       "minecraft:husk": "2025-07-11 15:27:20 +0000",
       "minecraft:zombie": "2025-07-09 22:50:59 +0000"
@@ -1084,6 +1086,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2025-07-11 15:40:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-07-11 15:31:38 +0000"
@@ -1102,6 +1110,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2025-07-11 15:58:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2025-07-11 15:31:38 +0000"
@@ -1114,6 +1128,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-07-11 15:42:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-07-11 15:12:42 +0000"
@@ -1123,6 +1143,12 @@
   "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
     "criteria": {
       "has_prismarine_bricks": "2025-07-11 15:18:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-07-11 15:47:35 +0000"
     },
     "done": true
   },
@@ -1300,6 +1326,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_lighthouse": {
+    "criteria": {
+      "location0": "2025-07-11 15:47:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_logs": "2025-07-11 15:15:45 +0000"
@@ -1336,6 +1368,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-07-11 15:52:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-11 15:20:27 +0000"
@@ -1357,6 +1395,12 @@
   "travelersbackpack:recipes/misc/enderman": {
     "criteria": {
       "has_ender_pearl": "2025-07-11 15:14:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-07-11 15:50:17 +0000"
     },
     "done": true
   },
@@ -1462,6 +1506,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-07-11 15:58:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
       "has_bamboo": "2025-07-11 15:16:07 +0000"
@@ -1471,6 +1521,12 @@
   "minecraft:recipes/building_blocks/prismarine_brick_slab": {
     "criteria": {
       "has_prismarine_bricks": "2025-07-11 15:18:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-07-11 15:58:07 +0000"
     },
     "done": true
   },
@@ -1555,6 +1611,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-07-11 15:11:05 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-07-11 15:42:23 +0000"
     },
     "done": true
   },

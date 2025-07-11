@@ -745,3 +745,159 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 [11Jul2025 15:44:55.688] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2280ms or 45 ticks behind
 [11Jul2025 15:44:56.765] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
 [11Jul2025 15:44:56.772] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[11Jul2025 15:45:13.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3294ms or 65 ticks behind
+[11Jul2025 15:45:33.627] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4719ms or 94 ticks behind
+[11Jul2025 15:45:44.970] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[11Jul2025 15:46:22.916] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[11Jul2025 15:46:40.337] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2429ms or 48 ticks behind
+[11Jul2025 15:46:58.637] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3329ms or 66 ticks behind
+[11Jul2025 15:47:17.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3508ms or 70 ticks behind
+[11Jul2025 15:47:20.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [The Lighthouse]
+[11Jul2025 15:47:29.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Sweet Dreams]
+[11Jul2025 15:47:30.220] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:47:30.220] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:47:30.220] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:47:30.221] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:47:32.730] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootTable/]: Tried to over-fill a container
+[11Jul2025 15:47:34.629] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[11Jul2025 15:47:35.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Sweet Dreams]
+[11Jul2025 15:47:51.679] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[11Jul2025 15:48:19.864] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[11Jul2025 15:48:38.150] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[11Jul2025 15:48:38.155] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[11Jul2025 15:48:38.155] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[11Jul2025 15:48:38.156] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[11Jul2025 15:48:38.156] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[11Jul2025 15:48:38.445] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[11Jul2025 15:48:38.446] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[11Jul2025 15:48:38.453] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[11Jul2025 15:48:38.453] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[11Jul2025 15:48:38.453] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[11Jul2025 15:48:38.454] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[11Jul2025 15:48:38.454] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[11Jul2025 15:48:39.962] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[11Jul2025 15:48:42.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Mine? Mine? Mine?]
+[11Jul2025 15:48:42.962] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[11Jul2025 15:48:42.969] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[11Jul2025 15:48:42.970] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[11Jul2025 15:48:42.970] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[11Jul2025 15:48:42.970] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[11Jul2025 15:48:43.015] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[11Jul2025 15:48:43.021] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[11Jul2025 15:48:43.021] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[11Jul2025 15:48:43.021] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[11Jul2025 15:48:43.021] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[11Jul2025 15:48:43.022] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[11Jul2025 15:48:43.022] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[11Jul2025 15:48:43.022] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[11Jul2025 15:48:43.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Sweet Dreams]
+[11Jul2025 15:48:47.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Chompy]
+[11Jul2025 15:48:57.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2945ms or 58 ticks behind
+[11Jul2025 15:49:16.138] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3280ms or 65 ticks behind
+[11Jul2025 15:49:34.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3341ms or 66 ticks behind
+[11Jul2025 15:49:52.438] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3030ms or 60 ticks behind
+[11Jul2025 15:50:09.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2477ms or 49 ticks behind
+[11Jul2025 15:52:13.798] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[11Jul2025 15:52:31.602] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2844ms or 56 ticks behind
+[11Jul2025 15:52:33.464] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cartographer'/26796, l='ServerLevel[world]', x=538.70, y=69.88, z=-1096.30] died, message: 'Cartographer was slain by staputa'
+[11Jul2025 15:52:33.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Neighborhood Brawl]
+[11Jul2025 15:52:43.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has reached the goal [Bone Crusher]
+[11Jul2025 15:52:51.279] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
+[11Jul2025 15:53:58.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[11Jul2025 15:54:16.344] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3337ms or 66 ticks behind
+[11Jul2025 15:54:34.108] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2800ms or 56 ticks behind
+[11Jul2025 15:54:45.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Dripstone Everywhere]
+[11Jul2025 15:54:51.448] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2340ms or 46 ticks behind
+[11Jul2025 15:54:59.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [A Disgusting Worm]
+[11Jul2025 15:56:02.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was pricked to death
+[11Jul2025 15:56:02.945] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:57:28.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Dripstone Everywhere]
+[11Jul2025 15:57:32.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 15:57:32.636] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.57.32.dat
+[11Jul2025 15:57:32.656] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:57:35.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has reached the goal [Discreet Search]
+[11Jul2025 15:57:36.444] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 15:57:36.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 15:57:45.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 15:57:45.636] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:57:49.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 15:57:49.372] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.57.49.dat
+[11Jul2025 15:57:49.386] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:58:12.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 15:58:12.530] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:58:28.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was doomed to fall by staputa
+[11Jul2025 15:58:28.029] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.58.28.dat
+[11Jul2025 15:58:28.031] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:58:53.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 15:58:53.733] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:58:57.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 15:58:57.072] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.58.57.dat
+[11Jul2025 15:58:57.084] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:59:14.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 15:59:14.342] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:59:15.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 15:59:15.620] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.59.15.dat
+[11Jul2025 15:59:15.677] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:59:31.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 15:59:31.133] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:59:41.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 15:59:41.725] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-15.59.41.dat
+[11Jul2025 15:59:41.740] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 16:00:01.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ambusher
+[11Jul2025 16:00:01.331] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 16:00:02.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ancient Guardian
+[11Jul2025 16:00:02.932] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-16.00.02.dat
+[11Jul2025 16:00:02.949] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 16:00:07.933] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@595a3d94[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:37271) lost connection: Disconnected
+[11Jul2025 16:00:12.738] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:38631] logged in with entity id 40456 at (1418.451214345037, 66.0, 1165.1287343552433)
+[11Jul2025 16:00:12.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:00:13.384] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:00:13.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:00:13.432] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jul2025 16:00:16.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Ancient Guardian
+[11Jul2025 16:00:16.335] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 16:00:18.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri fell from a high place
+[11Jul2025 16:00:18.153] [Server thread/INFO] [tombstone/]: The player santiagoescri has successfully been saved
+[11Jul2025 16:00:18.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa walked into a cactus whilst trying to escape Ancient Guardian
+[11Jul2025 16:00:18.388] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-16.00.18.dat
+[11Jul2025 16:00:18.390] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 16:00:19.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has completed the challenge [The One - Armed Monster]
+[11Jul2025 16:00:23.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has reached the goal [A Fast Comeback]
+[11Jul2025 16:00:38.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [A Disgusting Worm]
+[11Jul2025 16:00:47.430] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6c3b8ffc[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:58833) lost connection: Disconnected
+[11Jul2025 16:01:20.405] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@46465855[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:60907) lost connection: Disconnected
+[11Jul2025 16:01:53.411] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@541e9540[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:42299) lost connection: Disconnected
+[11Jul2025 16:01:59.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:37109] logged in with entity id 42523 at (1418.451214345037, 66.0, 1165.1287343552433)
+[11Jul2025 16:01:59.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:02:00.466] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:02:00.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:02:00.536] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jul2025 16:02:01.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Ambusher
+[11Jul2025 16:02:01.142] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-16.02.01.dat
+[11Jul2025 16:02:01.171] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 16:02:10.437] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6996d9b1[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:42057) lost connection: Disconnected
+[11Jul2025 16:03:04.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Spiky Worm
+[11Jul2025 16:03:04.093] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for teddiursa with unique ID travelersbackpack.standard_11.07.2025-16.03.04.dat
+[11Jul2025 16:03:04.099] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 16:03:43.451] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:45241] logged in with entity id 44220 at (1418.451214345037, 66.0, 1165.1287343552433)
+[11Jul2025 16:03:43.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:04:10.456] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-50, z=-211}
+[11Jul2025 16:04:10.457] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-413, y=-49, z=-217}
+[11Jul2025 16:04:10.457] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-418, y=-50, z=-208}
+[11Jul2025 16:04:10.466] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[11Jul2025 16:04:10.466] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[11Jul2025 16:04:10.466] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[11Jul2025 16:04:10.647] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-423, y=-50, z=-211}
+[11Jul2025 16:04:10.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[11Jul2025 16:04:10.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[11Jul2025 16:04:10.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[11Jul2025 16:04:10.654] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[11Jul2025 16:04:10.655] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[11Jul2025 16:04:15.523] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
+[11Jul2025 16:04:15.528] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[11Jul2025 16:04:15.528] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:04:35.115] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 16:05:27.312] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
