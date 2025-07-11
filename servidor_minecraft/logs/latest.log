@@ -3326,3 +3326,22 @@ com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod
 [11Jul2025 16:23:03.587] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
 [11Jul2025 16:23:51.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Stone Age]
 [11Jul2025 16:25:24.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has reached the goal [Die Classy]
+[11Jul2025 16:26:40.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has reached the goal [Die Classy]
+[11Jul2025 16:27:49.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [A trip to the Countryside]
+[11Jul2025 16:29:08.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Isn't It Iron Pick]
+[11Jul2025 16:33:32.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Ashes 'n Bones]
+[11Jul2025 16:33:56.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [A solid concept II]
+[11Jul2025 16:33:56.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 30122006N has made the advancement [A solid concept II]
+[11Jul2025 16:33:56.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [A solid concept II]
+[11Jul2025 16:33:56.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [A solid concept II]
+[11Jul2025 16:33:56.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [A solid concept II]
+[11Jul2025 16:34:25.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made santiagoescri a server operator
+[11Jul2025 16:34:33.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 16:34:33.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 16:34:33.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [santiagoescri: Kicked eltengolarga1930: Kicked by an operator]
+[11Jul2025 16:34:33.796] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[11Jul2025 16:34:38.988] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:34669] logged in with entity id 69149 at (96.39720202897952, 113.0, -990.4568776361803)
+[11Jul2025 16:34:38.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 16:34:57.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Ashes 'n Bones]
+[11Jul2025 16:36:01.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [We do a little trolling...]
+[11Jul2025 16:36:03.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [We do a little trolling...]

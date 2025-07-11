@@ -1783,5 +1783,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/choose_grave_type": {
+    "criteria": {
+      "coded_trigger": "2025-07-11 16:25:24 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
