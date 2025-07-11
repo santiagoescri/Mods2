@@ -1,129 +1,127 @@
-[09Jul2025 22:11:58.179] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[09Jul2025 22:11:58.185] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[09Jul2025 22:11:59.023] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[09Jul2025 22:11:59.105] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Mods2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[09Jul2025 22:11:59.632] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[09Jul2025 22:11:59.634] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Jul2025 22:11:59.637] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Jul2025 22:11:59.642] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[09Jul2025 22:12:00.435] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: /workspaces/Mods2/servidor_minecraft/mods/cloth-config-11.1.136-forge.jar
-[09Jul2025 22:12:00.437] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
-[09Jul2025 22:12:03.290] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09Jul2025 22:12:03.341] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
-[09Jul2025 22:12:03.344] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
-[09Jul2025 22:12:03.446] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[09Jul2025 22:12:03.761] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jul2025 22:12:03.805] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jul2025 22:12:03.831] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[09Jul2025 22:12:05.712] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
-[09Jul2025 22:12:05.713] [main/WARN] [mixin/]: @Mixin target noobanidus.mods.lootr.config.ConfigManager was not found quark_integrations.mixins.json:lootr.ConfigManagerMixin
-[09Jul2025 22:12:05.882] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER
-[09Jul2025 22:12:05.882] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LevelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER)
-[09Jul2025 22:12:05.883] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LevelRenderer was not found accessories-common.mixins.json:LevelRendererAccessor
-[09Jul2025 22:12:06.141] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AnvilScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.AnvilScreen)
-[09Jul2025 22:12:06.141] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AnvilScreen was not found ante.mixins.json:AnvilScreenMixin
-[09Jul2025 22:12:06.431] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerHandler)
-[09Jul2025 22:12:06.433] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerHandler
-[09Jul2025 22:12:06.437] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour)
-[09Jul2025 22:12:06.437] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerMovementBehaviour
-[09Jul2025 22:12:06.440] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirCurrent (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirCurrent)
-[09Jul2025 22:12:06.441] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirCurrent was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirCurrent
-[09Jul2025 22:12:06.444] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirFlowParticle (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirFlowParticle)
-[09Jul2025 22:12:06.445] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirFlowParticle was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirFlowParticle
-[09Jul2025 22:12:06.447] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/belt/transport/BeltMovementHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler)
-[09Jul2025 22:12:06.447] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinBeltMovementHandler
-[09Jul2025 22:12:06.450] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/Contraption (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.Contraption)
-[09Jul2025 22:12:06.451] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.Contraption was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraption
-[09Jul2025 22:12:06.454] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ContraptionCollider (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ContraptionCollider)
-[09Jul2025 22:12:06.454] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ContraptionCollider was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraptionCollider
-[09Jul2025 22:12:06.457] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EntityLauncher (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EntityLauncher)
-[09Jul2025 22:12:06.457] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EntityLauncher was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinEntityLauncher
-[09Jul2025 22:12:06.460] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/cannon/LaunchedItem (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.cannon.LaunchedItem)
-[09Jul2025 22:12:06.460] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.cannon.LaunchedItem was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinLaunchedItem
-[09Jul2025 22:12:06.464] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/RedstoneLinkNetworkHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler)
-[09Jul2025 22:12:06.464] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinRedstoneLinkNetworkHandler
-[09Jul2025 22:12:06.468] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/SharedDepotBlockMethods (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods)
-[09Jul2025 22:12:06.468] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinSharedDepotBlockMethods
-[09Jul2025 22:12:06.470] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/collision/Matrix3d (java.lang.ClassNotFoundException: com.simibubi.create.foundation.collision.Matrix3d)
-[09Jul2025 22:12:06.470] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.collision.Matrix3d was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.Matrix3dAccessor
-[09Jul2025 22:12:06.473] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/outliner/Outline$OutlineParams (java.lang.ClassNotFoundException: com.simibubi.create.foundation.outliner.Outline$OutlineParams)
-[09Jul2025 22:12:06.474] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.outliner.Outline$OutlineParams was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.OutlineParamsAccessor
-[09Jul2025 22:12:06.477] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour)
-[09Jul2025 22:12:06.477] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinBlockBreakingMovementBehaviour
-[09Jul2025 22:12:06.481] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/FilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour)
-[09Jul2025 22:12:06.481] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinFilteringBehaviour
-[09Jul2025 22:12:06.484] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/LinkBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.LinkBehaviour)
-[09Jul2025 22:12:06.484] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.LinkBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinLinkBehaviour
-[09Jul2025 22:12:06.487] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/scrollValue/ScrollValueBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour)
-[09Jul2025 22:12:06.487] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinScrollValueBehaviour
-[09Jul2025 22:12:06.490] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/SidedFilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour)
-[09Jul2025 22:12:06.491] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinSidedFilteringBehaviour
-[09Jul2025 22:12:06.493] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock)
-[09Jul2025 22:12:06.494] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinCrushingWheelBlock
-[09Jul2025 22:12:06.496] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlock)
-[09Jul2025 22:12:06.496] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinEjectorBlock
-[09Jul2025 22:12:06.499] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/funnel/FunnelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.funnel.FunnelBlock)
-[09Jul2025 22:12:06.500] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.funnel.FunnelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinFunnelBlock
-[09Jul2025 22:12:06.503] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/contact/RedstoneContactBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.contact.RedstoneContactBlock)
-[09Jul2025 22:12:06.503] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.contact.RedstoneContactBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock
-[09Jul2025 22:12:06.505] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/chassis/StickerBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.chassis.StickerBlock)
-[09Jul2025 22:12:06.505] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.chassis.StickerBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinStickerBlock
-[09Jul2025 22:12:06.509] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/bearing/MechanicalBearingBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity)
-[09Jul2025 22:12:06.509] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.IMixinMechanicalBearingTileEntity
-[09Jul2025 22:12:06.513] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity)
-[09Jul2025 22:12:06.513] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinCrushingWheelControllerTileEntity
-[09Jul2025 22:12:06.516] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlockEntity)
-[09Jul2025 22:12:06.516] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEjectorTileEntity
-[09Jul2025 22:12:06.518] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/EncasedFanBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity)
-[09Jul2025 22:12:06.519] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEncasedFanTileEntity
-[09Jul2025 22:12:06.523] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/cannon/SchematicannonBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.cannon.SchematicannonBlockEntity)
-[09Jul2025 22:12:06.523] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.cannon.SchematicannonBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinSchematicannonBlockEntity
-[09Jul2025 22:12:06.526] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/tools/DeployTool (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.tools.DeployTool)
-[09Jul2025 22:12:06.527] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.tools.DeployTool was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinDeployTool
-[09Jul2025 22:12:06.531] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/tools/SchematicToolBase (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.tools.SchematicToolBase)
-[09Jul2025 22:12:06.531] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.tools.SchematicToolBase was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinSchematicToolBase
-[09Jul2025 22:12:06.534] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/SchematicTransformation (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.SchematicTransformation)
-[09Jul2025 22:12:06.534] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.SchematicTransformation was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinSchematicTransformation
-[09Jul2025 22:12:06.537] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/ValueBox (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.ValueBox)
-[09Jul2025 22:12:06.537] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.ValueBox was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinValueBox
-[09Jul2025 22:12:06.540] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/AbstractContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.AbstractContraptionEntity)
-[09Jul2025 22:12:06.540] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.AbstractContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinAbstractContraptionEntity
-[09Jul2025 22:12:06.543] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/CarriageContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.CarriageContraptionEntity)
-[09Jul2025 22:12:06.543] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.CarriageContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinCarriageContraptionEntity
-[09Jul2025 22:12:06.547] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
-[09Jul2025 22:12:06.548] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinControlledContraptionEntity
-[09Jul2025 22:12:06.550] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatEntity)
-[09Jul2025 22:12:06.550] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinSeatEntity
-[09Jul2025 22:12:06.554] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/trainControls/ControlsInputPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket)
-[09Jul2025 22:12:06.555] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinControlsInputPacket
-[09Jul2025 22:12:06.558] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/track/CurvedTrackDestroyPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket)
-[09Jul2025 22:12:06.559] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinCurvedTrackDestroyPacket
-[09Jul2025 22:12:06.563] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/glue/SuperGlueRemovalPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket)
-[09Jul2025 22:12:06.564] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinSuperGlueRemovalPacket
-[09Jul2025 22:12:06.569] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/networking/BlockEntityConfigurationPacket (java.lang.ClassNotFoundException: com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket)
-[09Jul2025 22:12:06.569] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTileEntityConfigurationPacket
-[09Jul2025 22:12:06.573] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/TrainRelocationPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.TrainRelocationPacket)
-[09Jul2025 22:12:06.573] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.TrainRelocationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTrainRelocationPacket
-[09Jul2025 22:12:06.576] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatBlock)
-[09Jul2025 22:12:06.577] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.pr.MixinSeatBlock
-[09Jul2025 22:12:06.582] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
-[09Jul2025 22:12:06.586] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[09Jul2025 22:12:06.612] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity)
-[09Jul2025 22:12:06.614] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlockBreakingKineticTileEntity
-[09Jul2025 22:12:06.619] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/millstone/MillstoneBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.millstone.MillstoneBlock)
-[09Jul2025 22:12:06.619] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.millstone.MillstoneBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[09Jul2025 22:12:06.622] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinBlock)
-[09Jul2025 22:12:06.623] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[09Jul2025 22:12:06.627] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/chute/AbstractChuteBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.chute.AbstractChuteBlock)
-[09Jul2025 22:12:06.627] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.chute.AbstractChuteBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
-[09Jul2025 22:12:06.633] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
-[09Jul2025 22:12:06.633] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinControlledContraptionEntity
-[09Jul2025 22:12:06.637] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[09Jul2025 22:12:06.640] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[09Jul2025 22:12:06.643] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[09Jul2025 22:12:06.647] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[09Jul2025 22:12:06.651] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[09Jul2025 22:12:06.833] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+[11Jul2025 15:04:28.520] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[11Jul2025 15:04:28.526] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[11Jul2025 15:04:29.982] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[11Jul2025 15:04:30.052] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Mods2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[11Jul2025 15:04:30.439] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jul2025 15:04:30.442] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jul2025 15:04:30.444] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jul2025 15:04:30.445] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Mods2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[11Jul2025 15:04:30.930] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: /workspaces/Mods2/servidor_minecraft/mods/cloth-config-11.1.136-forge.jar
+[11Jul2025 15:04:30.931] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
+[11Jul2025 15:04:33.146] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[11Jul2025 15:04:33.191] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[11Jul2025 15:04:33.193] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[11Jul2025 15:04:33.337] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[11Jul2025 15:04:33.543] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jul2025 15:04:33.593] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jul2025 15:04:33.612] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[11Jul2025 15:04:34.993] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER
+[11Jul2025 15:04:34.994] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LevelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER)
+[11Jul2025 15:04:34.994] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LevelRenderer was not found accessories-common.mixins.json:LevelRendererAccessor
+[11Jul2025 15:04:35.328] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AnvilScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.AnvilScreen)
+[11Jul2025 15:04:35.329] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AnvilScreen was not found ante.mixins.json:AnvilScreenMixin
+[11Jul2025 15:04:35.507] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerHandler)
+[11Jul2025 15:04:35.507] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerHandler
+[11Jul2025 15:04:35.511] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/deployer/DeployerMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour)
+[11Jul2025 15:04:35.511] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.deployer.DeployerMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.IMixinDeployerMovementBehaviour
+[11Jul2025 15:04:35.515] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirCurrent (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirCurrent)
+[11Jul2025 15:04:35.516] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirCurrent was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirCurrent
+[11Jul2025 15:04:35.519] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/AirFlowParticle (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.AirFlowParticle)
+[11Jul2025 15:04:35.519] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.AirFlowParticle was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinAirFlowParticle
+[11Jul2025 15:04:35.523] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/belt/transport/BeltMovementHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler)
+[11Jul2025 15:04:35.523] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.belt.transport.BeltMovementHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinBeltMovementHandler
+[11Jul2025 15:04:35.528] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/Contraption (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.Contraption)
+[11Jul2025 15:04:35.528] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.Contraption was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraption
+[11Jul2025 15:04:35.531] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ContraptionCollider (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ContraptionCollider)
+[11Jul2025 15:04:35.531] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ContraptionCollider was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinContraptionCollider
+[11Jul2025 15:04:35.535] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EntityLauncher (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EntityLauncher)
+[11Jul2025 15:04:35.535] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EntityLauncher was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinEntityLauncher
+[11Jul2025 15:04:35.539] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/cannon/LaunchedItem (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.cannon.LaunchedItem)
+[11Jul2025 15:04:35.539] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.cannon.LaunchedItem was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinLaunchedItem
+[11Jul2025 15:04:35.541] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/RedstoneLinkNetworkHandler (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler)
+[11Jul2025 15:04:35.542] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinRedstoneLinkNetworkHandler
+[11Jul2025 15:04:35.545] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/SharedDepotBlockMethods (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods)
+[11Jul2025 15:04:35.545] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.SharedDepotBlockMethods was not found valkyrienskies-common.mixins.json:mod_compat.create.MixinSharedDepotBlockMethods
+[11Jul2025 15:04:35.547] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/collision/Matrix3d (java.lang.ClassNotFoundException: com.simibubi.create.foundation.collision.Matrix3d)
+[11Jul2025 15:04:35.548] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.collision.Matrix3d was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.Matrix3dAccessor
+[11Jul2025 15:04:35.550] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/outliner/Outline$OutlineParams (java.lang.ClassNotFoundException: com.simibubi.create.foundation.outliner.Outline$OutlineParams)
+[11Jul2025 15:04:35.551] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.outliner.Outline$OutlineParams was not found valkyrienskies-common.mixins.json:mod_compat.create.accessors.OutlineParamsAccessor
+[11Jul2025 15:04:35.554] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingMovementBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour)
+[11Jul2025 15:04:35.554] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingMovementBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinBlockBreakingMovementBehaviour
+[11Jul2025 15:04:35.557] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/FilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour)
+[11Jul2025 15:04:35.557] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinFilteringBehaviour
+[11Jul2025 15:04:35.560] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/link/LinkBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.link.LinkBehaviour)
+[11Jul2025 15:04:35.561] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.link.LinkBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinLinkBehaviour
+[11Jul2025 15:04:35.563] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/scrollValue/ScrollValueBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour)
+[11Jul2025 15:04:35.564] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinScrollValueBehaviour
+[11Jul2025 15:04:35.567] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/filtering/SidedFilteringBehaviour (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour)
+[11Jul2025 15:04:35.567] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.filtering.SidedFilteringBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create.behaviour.MixinSidedFilteringBehaviour
+[11Jul2025 15:04:35.570] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock)
+[11Jul2025 15:04:35.571] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinCrushingWheelBlock
+[11Jul2025 15:04:35.573] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlock)
+[11Jul2025 15:04:35.574] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinEjectorBlock
+[11Jul2025 15:04:35.576] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/funnel/FunnelBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.funnel.FunnelBlock)
+[11Jul2025 15:04:35.577] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.funnel.FunnelBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinFunnelBlock
+[11Jul2025 15:04:35.583] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/redstone/contact/RedstoneContactBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.redstone.contact.RedstoneContactBlock)
+[11Jul2025 15:04:35.583] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.redstone.contact.RedstoneContactBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock
+[11Jul2025 15:04:35.585] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/chassis/StickerBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.chassis.StickerBlock)
+[11Jul2025 15:04:35.586] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.chassis.StickerBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.block.MixinStickerBlock
+[11Jul2025 15:04:35.588] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/bearing/MechanicalBearingBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity)
+[11Jul2025 15:04:35.589] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.IMixinMechanicalBearingTileEntity
+[11Jul2025 15:04:35.592] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/crusher/CrushingWheelControllerBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity)
+[11Jul2025 15:04:35.593] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.crusher.CrushingWheelControllerBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinCrushingWheelControllerTileEntity
+[11Jul2025 15:04:35.597] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/depot/EjectorBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.depot.EjectorBlockEntity)
+[11Jul2025 15:04:35.597] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.depot.EjectorBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEjectorTileEntity
+[11Jul2025 15:04:35.600] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/fan/EncasedFanBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity)
+[11Jul2025 15:04:35.600] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.fan.EncasedFanBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinEncasedFanTileEntity
+[11Jul2025 15:04:35.603] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/cannon/SchematicannonBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.cannon.SchematicannonBlockEntity)
+[11Jul2025 15:04:35.603] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.cannon.SchematicannonBlockEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.blockentity.MixinSchematicannonBlockEntity
+[11Jul2025 15:04:35.605] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/tools/DeployTool (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.tools.DeployTool)
+[11Jul2025 15:04:35.605] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.tools.DeployTool was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinDeployTool
+[11Jul2025 15:04:35.608] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/tools/SchematicToolBase (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.tools.SchematicToolBase)
+[11Jul2025 15:04:35.608] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.tools.SchematicToolBase was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinSchematicToolBase
+[11Jul2025 15:04:35.612] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/schematics/client/SchematicTransformation (java.lang.ClassNotFoundException: com.simibubi.create.content.schematics.client.SchematicTransformation)
+[11Jul2025 15:04:35.612] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.schematics.client.SchematicTransformation was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinSchematicTransformation
+[11Jul2025 15:04:35.614] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/blockEntity/behaviour/ValueBox (java.lang.ClassNotFoundException: com.simibubi.create.foundation.blockEntity.behaviour.ValueBox)
+[11Jul2025 15:04:35.615] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.blockEntity.behaviour.ValueBox was not found valkyrienskies-common.mixins.json:mod_compat.create.client.MixinValueBox
+[11Jul2025 15:04:35.617] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/AbstractContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.AbstractContraptionEntity)
+[11Jul2025 15:04:35.617] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.AbstractContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinAbstractContraptionEntity
+[11Jul2025 15:04:35.620] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/CarriageContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.CarriageContraptionEntity)
+[11Jul2025 15:04:35.620] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.CarriageContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinCarriageContraptionEntity
+[11Jul2025 15:04:35.622] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
+[11Jul2025 15:04:35.622] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinControlledContraptionEntity
+[11Jul2025 15:04:35.625] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatEntity)
+[11Jul2025 15:04:35.625] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatEntity was not found valkyrienskies-common.mixins.json:mod_compat.create.entity.MixinSeatEntity
+[11Jul2025 15:04:35.628] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/trainControls/ControlsInputPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket)
+[11Jul2025 15:04:35.628] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.trainControls.ControlsInputPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinControlsInputPacket
+[11Jul2025 15:04:35.630] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/track/CurvedTrackDestroyPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket)
+[11Jul2025 15:04:35.630] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.track.CurvedTrackDestroyPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinCurvedTrackDestroyPacket
+[11Jul2025 15:04:35.633] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/glue/SuperGlueRemovalPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket)
+[11Jul2025 15:04:35.633] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.glue.SuperGlueRemovalPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinSuperGlueRemovalPacket
+[11Jul2025 15:04:35.636] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/foundation/networking/BlockEntityConfigurationPacket (java.lang.ClassNotFoundException: com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket)
+[11Jul2025 15:04:35.636] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.foundation.networking.BlockEntityConfigurationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTileEntityConfigurationPacket
+[11Jul2025 15:04:35.638] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/trains/entity/TrainRelocationPacket (java.lang.ClassNotFoundException: com.simibubi.create.content.trains.entity.TrainRelocationPacket)
+[11Jul2025 15:04:35.638] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.trains.entity.TrainRelocationPacket was not found valkyrienskies-common.mixins.json:mod_compat.create.packets.MixinTrainRelocationPacket
+[11Jul2025 15:04:35.641] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/actors/seat/SeatBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.actors.seat.SeatBlock)
+[11Jul2025 15:04:35.641] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.actors.seat.SeatBlock was not found valkyrienskies-common.mixins.json:mod_compat.create.pr.MixinSeatBlock
+[11Jul2025 15:04:35.644] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
+[11Jul2025 15:04:35.647] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[11Jul2025 15:04:35.670] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity)
+[11Jul2025 15:04:35.671] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlockBreakingKineticTileEntity
+[11Jul2025 15:04:35.673] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/kinetics/millstone/MillstoneBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.kinetics.millstone.MillstoneBlock)
+[11Jul2025 15:04:35.674] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.kinetics.millstone.MillstoneBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[11Jul2025 15:04:35.675] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/processing/basin/BasinBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.processing.basin.BasinBlock)
+[11Jul2025 15:04:35.676] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.processing.basin.BasinBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[11Jul2025 15:04:35.678] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/logistics/chute/AbstractChuteBlock (java.lang.ClassNotFoundException: com.simibubi.create.content.logistics.chute.AbstractChuteBlock)
+[11Jul2025 15:04:35.678] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.logistics.chute.AbstractChuteBlock was not found valkyrienskies-forge.mixins.json:compat.create.MixinBlocks
+[11Jul2025 15:04:35.680] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/contraptions/ControlledContraptionEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.contraptions.ControlledContraptionEntity)
+[11Jul2025 15:04:35.680] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.contraptions.ControlledContraptionEntity was not found valkyrienskies-forge.mixins.json:compat.create.MixinControlledContraptionEntity
+[11Jul2025 15:04:35.683] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[11Jul2025 15:04:35.686] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[11Jul2025 15:04:35.688] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[11Jul2025 15:04:35.691] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[11Jul2025 15:04:35.693] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[11Jul2025 15:04:35.961] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
@@ -161,243 +159,162 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[09Jul2025 22:12:06.882] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[09Jul2025 22:12:13.178] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin::handler$zne000$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[09Jul2025 22:12:15.369] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[11Jul2025 15:04:35.995] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[11Jul2025 15:04:41.218] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin::handler$zif000$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[11Jul2025 15:04:42.742] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[09Jul2025 22:12:17.136] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[09Jul2025 22:12:17.143] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[09Jul2025 22:12:17.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[09Jul2025 22:12:17.161] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[09Jul2025 22:12:17.162] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[09Jul2025 22:12:17.170] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[09Jul2025 22:12:17.177] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[09Jul2025 22:12:17.181] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[09Jul2025 22:12:17.487] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[09Jul2025 22:12:17.491] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[09Jul2025 22:12:18.584] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[09Jul2025 22:12:18.657] [modloading-worker-0/INFO] [quark/]: Initializing TerraBlender underground biome compat
-[09Jul2025 22:12:18.783] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
-[09Jul2025 22:12:19.160] [modloading-worker-0/INFO] [quark-zeta/]: Discovered 164 modules to load.
-[09Jul2025 22:12:19.160] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Abacus...
-[09Jul2025 22:12:19.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Adjustable Chat...
-[09Jul2025 22:12:19.167] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ambient Discs...
-[09Jul2025 22:12:19.168] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Tomes...
-[09Jul2025 22:12:19.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ancient Wood...
-[09Jul2025 22:12:19.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Armed Armor Stands...
-[09Jul2025 22:12:19.242] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Auto Walk Keybind...
-[09Jul2025 22:12:19.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Recipe Unlock...
-[09Jul2025 22:12:19.243] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Automatic Tool Restock...
-[09Jul2025 22:12:19.260] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Azalea Wood...
-[09Jul2025 22:12:19.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Back Button Keybind...
-[09Jul2025 22:12:19.264] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Backpack...
-[09Jul2025 22:12:19.272] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Beacon Redirection...
-[09Jul2025 22:12:19.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Better Elytra Rocket...
-[09Jul2025 22:12:19.278] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Big Stone Clusters...
-[09Jul2025 22:12:19.300] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Blossom Trees...
-[09Jul2025 22:12:19.306] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Bottled Cloud...
-[09Jul2025 22:12:19.310] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Buckets Show Inhabitants...
-[09Jul2025 22:12:19.315] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Camera...
-[09Jul2025 22:12:19.318] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Campfires Boost Elytra...
-[09Jul2025 22:12:19.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Celebratory Lamps...
-[09Jul2025 22:12:19.319] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chains Connect Blocks...
-[09Jul2025 22:12:19.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chest Searching...
-[09Jul2025 22:12:19.324] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chorus Vegetation...
-[09Jul2025 22:12:19.329] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Chute...
-[09Jul2025 22:12:19.330] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Climate Control Remover...
-[09Jul2025 22:12:19.334] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Color Runes...
-[09Jul2025 22:12:19.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compasses Work Everywhere...
-[09Jul2025 22:12:19.346] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Compressed Blocks...
-[09Jul2025 22:12:19.347] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Coral On Cactus...
-[09Jul2025 22:12:19.347] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Corundum...
-[09Jul2025 22:12:19.382] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crabs...
-[09Jul2025 22:12:19.390] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crafter...
-[09Jul2025 22:12:19.396] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Crate...
-[09Jul2025 22:12:19.399] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Diamond Repair...
-[09Jul2025 22:12:19.400] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dispensers Place Blocks...
-[09Jul2025 22:12:19.401] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Double Door Opening...
-[09Jul2025 22:12:19.405] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dragon Scales...
-[09Jul2025 22:12:19.405] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Duskbound Blocks...
-[09Jul2025 22:12:19.409] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Dyeable Item Frames...
-[09Jul2025 22:12:19.411] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Easy Transfering...
-[09Jul2025 22:12:19.413] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Elytra Indicator...
-[09Jul2025 22:12:19.416] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Emotes...
-[09Jul2025 22:12:19.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantment Predicates...
-[09Jul2025 22:12:19.417] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enchantments Begone...
-[09Jul2025 22:12:19.418] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Ender Watcher...
-[09Jul2025 22:12:19.424] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Endermosh Music Disc...
-[09Jul2025 22:12:19.425] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Enhanced Ladders...
-[09Jul2025 22:12:19.428] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Expanded Item Interactions...
-[09Jul2025 22:12:19.433] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fairy Rings...
-[09Jul2025 22:12:19.437] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Fallen Logs...
-[09Jul2025 22:12:19.445] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Feeding Trough...
-[09Jul2025 22:12:19.453] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Forgotten...
-[09Jul2025 22:12:19.472] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Foxhound...
-[09Jul2025 22:12:19.481] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Framed Glass...
-[09Jul2025 22:12:19.481] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Game Nerfs...
-[09Jul2025 22:12:19.482] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Item Frame...
-[09Jul2025 22:12:19.497] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glass Shard...
-[09Jul2025 22:12:19.502] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Glimmering Weald...
-[09Jul2025 22:12:19.533] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Bars...
-[09Jul2025 22:12:19.533] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gold Tools Have Fortune...
-[09Jul2025 22:12:19.535] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grab Chickens...
-[09Jul2025 22:12:19.538] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Grate...
-[09Jul2025 22:12:19.654] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Gravisand...
-[09Jul2025 22:12:19.659] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Greener Grass...
-[09Jul2025 22:12:19.667] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hedges...
-[09Jul2025 22:12:19.671] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hoe Harvesting...
-[09Jul2025 22:12:19.675] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hollow Logs...
-[09Jul2025 22:12:19.676] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Horses Swim...
-[09Jul2025 22:12:19.677] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Hotbar Changer...
-[09Jul2025 22:12:19.678] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Sponges...
-[09Jul2025 22:12:19.680] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Improved Tooltips...
-[09Jul2025 22:12:19.683] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Industrial Palette...
-[09Jul2025 22:12:19.690] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Inventory Sorting...
-[09Jul2025 22:12:19.693] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Iron Rod...
-[09Jul2025 22:12:19.720] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Item Sharing...
-[09Jul2025 22:12:19.722] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Japanese Palette...
-[09Jul2025 22:12:19.723] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Leaf Carpet...
-[09Jul2025 22:12:19.726] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Lock Rotation...
-[09Jul2025 22:12:19.727] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Long Range Pick Block...
-[09Jul2025 22:12:19.731] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magma Keeps Concrete Powder...
-[09Jul2025 22:12:19.732] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Magnets...
-[09Jul2025 22:12:19.736] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Map Washing...
-[09Jul2025 22:12:19.748] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Matrix Enchanting...
-[09Jul2025 22:12:19.774] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Metal Buttons...
-[09Jul2025 22:12:19.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Microcrafting Helper...
-[09Jul2025 22:12:19.775] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Midori...
-[09Jul2025 22:12:19.776] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Monster Box...
-[09Jul2025 22:12:19.776] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Banner Layers...
-[09Jul2025 22:12:19.777] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Brick Types...
-[09Jul2025 22:12:19.784] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Mud Blocks...
-[09Jul2025 22:12:19.785] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Note Block Sounds...
-[09Jul2025 22:12:19.787] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Potted Plants...
-[09Jul2025 22:12:19.790] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Villagers...
-[09Jul2025 22:12:19.794] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Narrator Readout...
-[09Jul2025 22:12:19.796] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Brick Fence Gate...
-[09Jul2025 22:12:19.798] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Nether Obsidian Spikes...
-[09Jul2025 22:12:19.799] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module New Stone Types...
-[09Jul2025 22:12:19.821] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No Durability On Cosmetics...
-[09Jul2025 22:12:19.826] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module No More Lava Pockets...
-[09Jul2025 22:12:19.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Obsidian Plate...
-[09Jul2025 22:12:19.827] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Overlay Shader...
-[09Jul2025 22:12:19.828] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Parrot Eggs...
-[09Jul2025 22:12:19.831] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pat The Dogs...
-[09Jul2025 22:12:19.841] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pathfinder Maps...
-[09Jul2025 22:12:19.857] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Permafrost...
-[09Jul2025 22:12:19.858] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Petals On Water...
-[09Jul2025 22:12:19.867] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pickarang...
-[09Jul2025 22:12:19.895] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pig Litters...
-[09Jul2025 22:12:19.897] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pipes...
-[09Jul2025 22:12:19.921] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Pistons Move Tile Entities...
-[09Jul2025 22:12:19.922] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Poison Potato Usage...
-[09Jul2025 22:12:19.927] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Quick Armor Swapping...
-[09Jul2025 22:12:19.933] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rainbow Lamps...
-[09Jul2025 22:12:19.933] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Raw Metal Bricks...
-[09Jul2025 22:12:19.934] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Reacharound Placing...
-[09Jul2025 22:12:19.940] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Redstone Randomizer...
-[09Jul2025 22:12:19.946] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Renewable Spore Blossoms...
-[09Jul2025 22:12:19.967] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Replace Scaffolding...
-[09Jul2025 22:12:19.968] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Rope...
-[09Jul2025 22:12:19.984] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Safer Creatures...
-[09Jul2025 22:12:19.984] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Seed Pouch...
-[09Jul2025 22:12:20.001] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shear Vines...
-[09Jul2025 22:12:20.018] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shiba...
-[09Jul2025 22:12:20.019] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shingles...
-[09Jul2025 22:12:20.019] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Shulker Packing...
-[09Jul2025 22:12:20.020] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Simple Harvest...
-[09Jul2025 22:12:20.033] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Skull Pikes...
-[09Jul2025 22:12:20.035] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slabs To Blocks...
-[09Jul2025 22:12:20.053] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slime In A Bucket...
-[09Jul2025 22:12:20.057] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Slimes To Magma Cubes...
-[09Jul2025 22:12:20.058] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Snow Golem Player Heads...
-[09Jul2025 22:12:20.062] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Candles...
-[09Jul2025 22:12:20.062] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Soul Sandstone...
-[09Jul2025 22:12:20.063] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spawner Replacer...
-[09Jul2025 22:12:20.067] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Spiral Spires...
-[09Jul2025 22:12:20.075] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stonelings...
-[09Jul2025 22:12:20.076] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Stools...
-[09Jul2025 22:12:20.077] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Sturdy Stone...
-[09Jul2025 22:12:20.080] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Thatch...
-[09Jul2025 22:12:20.081] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Tiny Potato...
-[09Jul2025 22:12:20.089] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Torch Arrow...
-[09Jul2025 22:12:20.091] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Toretoise...
-[09Jul2025 22:12:20.096] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Totem Of Holding...
-[09Jul2025 22:12:20.097] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Trowel...
-[09Jul2025 22:12:20.098] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Usage Ticker...
-[09Jul2025 22:12:20.099] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Uses For Curses...
-[09Jul2025 22:12:20.103] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Utility Recipes...
-[09Jul2025 22:12:20.103] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Animal Textures...
-[09Jul2025 22:12:20.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Bookshelves...
-[09Jul2025 22:12:20.107] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Chests...
-[09Jul2025 22:12:20.131] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Furnaces...
-[09Jul2025 22:12:20.145] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Ladders...
-[09Jul2025 22:12:20.146] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Variant Selector...
-[09Jul2025 22:12:20.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Planks...
-[09Jul2025 22:12:20.156] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vertical Slabs...
-[09Jul2025 22:12:20.191] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Vexes Die With Their Masters...
-[09Jul2025 22:12:20.194] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villager Rerolling Rework...
-[09Jul2025 22:12:20.203] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Villagers Follow Emeralds...
-[09Jul2025 22:12:20.207] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wooden Posts...
-[09Jul2025 22:12:20.212] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wool Shuts Up Minecarts...
-[09Jul2025 22:12:20.215] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Wraith...
-[09Jul2025 22:12:20.218] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module Zombie Villagers On Normal...
-[09Jul2025 22:12:20.221] [modloading-worker-0/INFO] [quark-zeta/]: Constructing module More Stone Variants...
-[09Jul2025 22:12:20.223] [modloading-worker-0/INFO] [quark-zeta/]: Constructed 164 modules.
-[09Jul2025 22:12:20.228] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[09Jul2025 22:12:20.228] [modloading-worker-0/INFO] [de.cristelknight999.wwoo_forge.wwoo_forge/]: Enabling William Wythers' Overhauled Overworld [FORGE]
-[09Jul2025 22:12:20.419] [modloading-worker-0/INFO] [quark-zeta/]: Doing super early config setup for quark
-[09Jul2025 22:12:28.370] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[09Jul2025 22:12:28.391] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
-[09Jul2025 22:12:28.391] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
-[09Jul2025 22:12:28.391] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
-[09Jul2025 22:12:28.394] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Shulker_MimicEntity from class net.miauczel.legendary_monsters.entity.custom.OldShulkerMimic
-[09Jul2025 22:12:28.524] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/Mods2/servidor_minecraft/config/tombstone-common.toml is not correct. Correcting
-[09Jul2025 22:12:28.579] [Thread-1/INFO] [quark-zeta/]: About to refresh quark's config, looking for better thread than 'Thread-1'...
-[09Jul2025 22:12:28.580] [Thread-1/WARN] [quark-zeta/]: Using thread 'Thread-1' instead of the server thread
-[09Jul2025 22:12:28.580] [Thread-1/INFO] [quark-zeta/]: quark's config is 'BEFORE_INIT', ignoring config refresh. Current thread: Thread-1
-[09Jul2025 22:12:28.594] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
-[09Jul2025 22:12:28.620] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
-[09Jul2025 22:12:28.629] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
-[09Jul2025 22:12:28.797] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[09Jul2025 22:12:28.797] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[09Jul2025 22:12:28.798] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[09Jul2025 22:12:28.798] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[09Jul2025 22:12:28.849] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
-[09Jul2025 22:12:28.850] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
-[09Jul2025 22:12:28.851] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
-[09Jul2025 22:12:28.854] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[09Jul2025 22:12:28.854] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[09Jul2025 22:12:28.854] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 1 for type OVERWORLD
-[09Jul2025 22:12:28.855] [main/INFO] [quark-zeta/]: Common setup: Performing initial refresh of quark's config on thread 'main'
-[09Jul2025 22:12:28.879] [main/INFO] [quark-zeta/]: Waiting for server start before accepting filewatcher changes to quark's config
-[09Jul2025 22:12:28.901] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Initializing Distant Horizons server.
-[09Jul2025 22:12:29.047] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons, Version: 2.3.2-b
-[09Jul2025 22:12:29.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
-[09Jul2025 22:12:29.070] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[09Jul2025 22:12:29.076] [modloading-worker-0/INFO] [DistantHorizons-AbstractModInitializer/]: Distant Horizons server Initialized.
-[09Jul2025 22:12:29.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.39 Target: null
-[09Jul2025 22:12:29.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09Jul2025 22:12:29.124] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
-[09Jul2025 22:12:29.125] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
-[09Jul2025 22:12:29.127] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
-[09Jul2025 22:12:29.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[09Jul2025 22:12:29.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
-[09Jul2025 22:12:29.438] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.6.9 Target: null
-[09Jul2025 22:12:29.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
-[09Jul2025 22:12:29.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
-[09Jul2025 22:12:29.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[09Jul2025 22:12:29.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[09Jul2025 22:12:29.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[09Jul2025 22:12:29.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.2 Target: null
-[09Jul2025 22:12:34.853] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09Jul2025 22:12:34.896] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/Mods2/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
-	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:404) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource.m_289864_(LevelStorageSource.java:342) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
-	at net.minecraft.server.Main.main(Main.java:141) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+[11Jul2025 15:04:43.650] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[11Jul2025 15:04:43.654] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[11Jul2025 15:04:43.657] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[11Jul2025 15:04:43.662] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[11Jul2025 15:04:43.665] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[11Jul2025 15:04:43.669] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[11Jul2025 15:04:43.672] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[11Jul2025 15:04:43.674] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[11Jul2025 15:04:44.144] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[11Jul2025 15:04:44.146] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[11Jul2025 15:04:45.254] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[11Jul2025 15:04:45.645] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[11Jul2025 15:04:45.647] [modloading-worker-0/INFO] [de.cristelknight999.wwoo_forge.wwoo_forge/]: Enabling William Wythers' Overhauled Overworld [FORGE]
+[11Jul2025 15:04:49.258] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[11Jul2025 15:04:49.273] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[11Jul2025 15:04:49.273] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[11Jul2025 15:04:49.274] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Cloud_GolemEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.OriginClasses.IAnimatedBoss
+[11Jul2025 15:04:49.276] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.Shulker_MimicEntity from class net.miauczel.legendary_monsters.entity.custom.OldShulkerMimic
+[11Jul2025 15:04:49.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[11Jul2025 15:04:49.413] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[11Jul2025 15:04:49.417] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[11Jul2025 15:04:49.524] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[11Jul2025 15:04:49.525] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[11Jul2025 15:04:49.525] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[11Jul2025 15:04:49.525] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[11Jul2025 15:04:49.568] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[11Jul2025 15:04:49.568] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[11Jul2025 15:04:49.571] [main/INFO] [citadel/]: Added 1 modded biome surface rule types via terrablender
+[11Jul2025 15:04:49.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[11Jul2025 15:04:49.850] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[11Jul2025 15:04:49.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.39 Target: null
+[11Jul2025 15:04:49.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[11Jul2025 15:04:50.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[11Jul2025 15:04:50.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[11Jul2025 15:04:50.164] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.6.9 Target: null
+[11Jul2025 15:04:50.164] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[11Jul2025 15:04:50.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[11Jul2025 15:04:50.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[11Jul2025 15:04:50.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[11Jul2025 15:04:50.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[11Jul2025 15:04:50.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 9.0.1 Target: 9.0.2
+[11Jul2025 15:04:51.919] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11Jul2025 15:04:53.334] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mods2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/assets/.mcassetsroot' uses unexpected schema
+[11Jul2025 15:04:53.335] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Mods2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23185!/data/.mcassetsroot' uses unexpected schema
+[11Jul2025 15:04:55.108] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[11Jul2025 15:04:55.270] [Worker-Main-2/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.1.jar
+[11Jul2025 15:04:55.350] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.350] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.350] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.9.7 MC 1.20.1.jar)
+[11Jul2025 15:04:55.350] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/tw_mangrove_tower as it is missing following references: twilightforest:swamp (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	twilightforest:fire_swamp (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.351] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:shaded_woodlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_dunes (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:sunset_maple_forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:rising_creek (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crystal_roughs (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:searing_grassland (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:crescent_orchard (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.351] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.351] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/tw_canopy_tower as it is missing following references: twilightforest:forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	twilightforest:spooky_forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	twilightforest:mushroom_forest (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.351] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:brightlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:slushlands (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:frostbitten_forest (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:snow_covered_pines (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:brisk_meadow (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	blue_skies:polar_highland (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.352] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	ad_astra:martian_wastelands (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.352] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.352] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.20.1-1.0.5.jar), 
+	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:55.353] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.20.1-1.0.5.jar)
+[11Jul2025 15:04:56.497] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:simplyswords:grant_book_on_first_join
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[11Jul2025 15:04:58.379] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[11Jul2025 15:04:58.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[11Jul2025 15:04:58.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[11Jul2025 15:04:58.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[11Jul2025 15:04:58.400] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe laendli_transport:recipe_cushion_car
+com.google.gson.JsonSyntaxException: Unknown item 'laendli_transport:back_seat_cushion_car'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -413,3 +330,380 @@ net.minecraft.util.DirectoryLock$LockException: /workspaces/Mods2/servidor_minec
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.412] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.419] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.426] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe laendli_transport:recipe_cusion_airship
+com.google.gson.JsonSyntaxException: Unknown item 'laendli_transport:back_seat_cushion'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.431] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal
+com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.456] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:311) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23190!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23185!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[11Jul2025 15:04:58.466] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[11Jul2025 15:04:58.573] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement legendary_monsters:defeat_ambusher: Expected item to be an item, was unknown string 'legendary_monsters:ancient_dripstone_shard'
+[11Jul2025 15:04:58.605] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2141 advancements
+[11Jul2025 15:04:58.622] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[11Jul2025 15:04:58.628] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[11Jul2025 15:04:58.683] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/tw_canopy_tower, totw_modded:has_structure/tw_mangrove_tower, totw_modded:has_structure/venus_tower
+[11Jul2025 15:04:59.696] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[11Jul2025 15:04:59.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[11Jul2025 15:04:59.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[11Jul2025 15:04:59.788] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[11Jul2025 15:04:59.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[11Jul2025 15:04:59.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[11Jul2025 15:04:59.894] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[11Jul2025 15:04:59.970] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11Jul2025 15:04:59.970] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[11Jul2025 15:04:59.970] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11Jul2025 15:04:59.971] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[11Jul2025 15:05:00.136] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[11Jul2025 15:05:00.137] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[11Jul2025 15:05:00.143] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[11Jul2025 15:05:00.286] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:00.487] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[11Jul2025 15:05:00.487] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[11Jul2025 15:05:00.631] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:00.975] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:01.275] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[11Jul2025 15:05:01.286] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:02.417] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.IceSpikeEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.Projectile.PowerBallBombEntity
+[11Jul2025 15:05:02.421] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.IceSpikeEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.Projectile.PowerBallBombEntity
+[11Jul2025 15:05:02.437] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.miauczel.legendary_monsters.entity.custom.IceSpikeEntity from class net.miauczel.legendary_monsters.entity.AnimatedMonster.Projectile.SmallPowerBallBombEntity
+[11Jul2025 15:05:05.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[11Jul2025 15:05:06.376] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:06.535] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:06.756] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:07.182] [Netty Epoll Server IO #7/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:07.536] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:07.796] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:07.947] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:07.976] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:07.977] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:07.978] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:07.979] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:07.979] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:08.335] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:08.477] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:08.541] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:08.954] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:09.372] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:09.542] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:09.683] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:10.139] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:10.289] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:10.373] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:10.563] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:10.877] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:11.299] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:11.373] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:11.564] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:11.872] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[11Jul2025 15:05:12.370] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[11Jul2025 15:05:12.565] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[11Jul2025 15:05:12.787] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[11Jul2025 15:05:12.951] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[11Jul2025 15:05:13.280] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7910 ms
+[11Jul2025 15:05:13.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.296s)! For help, type "help"
+[11Jul2025 15:05:13.356] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[11Jul2025 15:05:22.982] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: staputa[/127.125.156.6:38857] logged in with entity id 772 at (-23.732554946730808, 136.0, -41.62349334689921)
+[11Jul2025 15:05:23.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa joined the game
+[11Jul2025 15:05:29.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: santiagoescri[/127.108.162.247:47305] logged in with entity id 894 at (38.31498884982788, 103.0, 71.38209871923515)
+[11Jul2025 15:05:29.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri joined the game
+[11Jul2025 15:05:42.637] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: teddiursa[/127.80.21.249:53785] logged in with entity id 993 at (-129.35888419213703, 110.0, -6.699999988079071)
+[11Jul2025 15:05:42.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa joined the game
+[11Jul2025 15:06:17.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri was slain by Possessed Paladin
+[11Jul2025 15:06:17.381] [Server thread/INFO] [tombstone/]: The player santiagoescri has successfully been saved
+[11Jul2025 15:06:22.396] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[11Jul2025 15:06:22.396] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[11Jul2025 15:06:22.397] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[11Jul2025 15:07:13.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was slain by Zombie
+[11Jul2025 15:07:13.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Your First Grave]
+[11Jul2025 15:07:13.412] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:07:23.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [A Strange Grave Dust]
+[11Jul2025 15:07:42.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[11Jul2025 15:07:42.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: normal<--[HERE]
+[11Jul2025 15:07:45.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Monster Hunter]
+[11Jul2025 15:07:46.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Zombie
+[11Jul2025 15:07:46.683] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:08:47.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Cover Me with Diamonds]
+[11Jul2025 15:08:58.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Mutual Aid]
+[11Jul2025 15:10:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa fell from a high place
+[11Jul2025 15:10:00.532] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:10:21.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri was slain by teddiursa
+[11Jul2025 15:10:21.670] [Server thread/INFO] [tombstone/]: The player santiagoescri has successfully been saved
+[11Jul2025 15:10:22.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [The Most Useful Key]
+[11Jul2025 15:10:25.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Getting an Upgrade]
+[11Jul2025 15:10:25.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Funeral Theft]
+[11Jul2025 15:10:25.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has reached the goal [Discreet Search]
+[11Jul2025 15:10:28.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has reached the goal [A Fast Comeback]
+[11Jul2025 15:10:32.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Knowledge of Death]
+[11Jul2025 15:10:32.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Funeral Theft]
+[11Jul2025 15:12:39.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Suit Up]
+[11Jul2025 15:12:50.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Ashes 'n Bones]
+[11Jul2025 15:12:51.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri was slain by Husk
+[11Jul2025 15:12:51.635] [Server thread/INFO] [tombstone/]: The player santiagoescri has successfully been saved
+[11Jul2025 15:13:47.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Ashes 'n Bones]
+[11Jul2025 15:14:01.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Not even afraid of death]
+[11Jul2025 15:14:01.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Back to childhood]
+[11Jul2025 15:14:27.042] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@50097fe0[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:57427) lost connection: Disconnected
+[11Jul2025 15:14:27.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Magic Writing]
+[11Jul2025 15:14:30.721] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2b6d30a8[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:53319) lost connection: Disconnected
+[11Jul2025 15:14:33.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has reached the goal [Death Will Not Be Enough]
+[11Jul2025 15:15:26.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Knowledge raises the soul]
+[11Jul2025 15:17:07.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [Isn't It Iron Pick]
+[11Jul2025 15:17:28.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [Hidden in the Depths]
+[11Jul2025 15:17:28.874] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@72829a35[id=<null>,name=eltengolarga1930,properties={},legacy=false] (/127.10.75.70:47251) lost connection: Disconnected
+[11Jul2025 15:17:34.830] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:42193] logged in with entity id 5151 at (-1.5, 136.0, -7.5)
+[11Jul2025 15:17:34.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 15:18:06.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Isn't It Iron Pick]
+[11Jul2025 15:19:19.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has made the advancement [Chompy]
+[11Jul2025 15:19:25.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri was slain by Crocodile
+[11Jul2025 15:19:25.592] [Server thread/INFO] [tombstone/]: The player santiagoescri has successfully been saved
+[11Jul2025 15:19:55.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa drowned
+[11Jul2025 15:19:55.140] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:19:57.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Stone Age]
+[11Jul2025 15:20:19.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [A Terrifying Entrance]
+[11Jul2025 15:20:32.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Getting an Upgrade]
+[11Jul2025 15:21:11.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Alex's Mobs]
+[11Jul2025 15:22:14.333] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[11Jul2025 15:22:14.334] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[11Jul2025 15:22:14.334] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[11Jul2025 15:22:14.422] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[11Jul2025 15:22:14.422] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[11Jul2025 15:22:20.939] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[11Jul2025 15:22:20.939] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[11Jul2025 15:22:20.940] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[11Jul2025 15:23:08.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Elephant
+[11Jul2025 15:23:08.818] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:23:11.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [The Most Useful Key]
+[11Jul2025 15:23:16.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has reached the goal [A Fast Comeback]
+[11Jul2025 15:23:51.358] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eltengolarga1930 lost connection: Disconnected
+[11Jul2025 15:23:51.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 left the game
+[11Jul2025 15:23:55.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eltengolarga1930[/127.10.75.70:55983] logged in with entity id 10398 at (485.2154775890732, 68.0, 174.2268909584397)
+[11Jul2025 15:23:55.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 joined the game
+[11Jul2025 15:24:00.232] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[11Jul2025 15:24:00.232] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[11Jul2025 15:24:00.233] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[11Jul2025 15:24:00.233] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[11Jul2025 15:24:00.234] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[11Jul2025 15:24:00.260] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[11Jul2025 15:24:00.261] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[11Jul2025 15:24:00.261] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[11Jul2025 15:24:02.718] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[11Jul2025 15:24:02.718] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[11Jul2025 15:24:02.723] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[11Jul2025 15:24:02.723] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[11Jul2025 15:24:02.723] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[11Jul2025 15:24:26.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has made the advancement [It's an Emu!!!]
+[11Jul2025 15:25:57.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa was doomed to fall by Husk
+[11Jul2025 15:25:57.061] [Server thread/INFO] [tombstone/]: The player staputa has successfully been saved
+[11Jul2025 15:26:07.139] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=12, y=-58, z=24}
+[11Jul2025 15:26:07.139] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=13, y=-58, z=25}
+[11Jul2025 15:26:54.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: santiagoescri has completed the challenge [The Power of the Sun]
+[11Jul2025 15:27:13.796] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=535, y=64, z=247} BlockPos{x=534, y=62, z=247}
+[11Jul2025 15:27:13.845] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=535, y=64, z=247} BlockPos{x=534, y=62, z=247}
+[11Jul2025 15:27:24.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Husk
+[11Jul2025 15:27:24.063] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:27:27.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: staputa has reached the goal [Here They Come]
+[11Jul2025 15:28:19.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa has made the advancement [It's not time to tan]
+[11Jul2025 15:28:38.828] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:28:38.828] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:28:38.828] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:28:38.829] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:20.591] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:20.592] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:20.592] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:20.593] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:20.593] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:29:41.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Knowledge of Death]
+[11Jul2025 15:29:41.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Suit Up]
+[11Jul2025 15:29:41.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Funeral Theft]
+[11Jul2025 15:29:50.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [Monster Hunter]
+[11Jul2025 15:29:50.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [A Strange Grave Dust]
+[11Jul2025 15:31:12.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa tried to swim in lava
+[11Jul2025 15:31:12.404] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:31:54.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was slain by Husk
+[11Jul2025 15:31:54.860] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:31:55.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eltengolarga1930 has made the advancement [People Are Strange]
+[11Jul2025 15:32:11.512] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:32:11.513] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:32:11.513] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:32:11.513] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:32:11.513] [Worker-Main-2/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:45.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was killed by Area Effect Cloud using magic
+[11Jul2025 15:33:45.017] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
+[11Jul2025 15:33:57.691] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.691] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.691] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.691] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.691] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.692] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.693] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.693] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.693] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:33:57.693] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id laendli_transport:crab
+[11Jul2025 15:34:32.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: teddiursa was killed by magic
+[11Jul2025 15:34:32.040] [Server thread/INFO] [tombstone/]: The player teddiursa has successfully been saved
